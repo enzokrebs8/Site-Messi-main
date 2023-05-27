@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(17, 30, 57);
+}
+
+h1 {
+    font-size: 1.8em;
+    color: black;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+header {
+    width: 100%;
+}
+
+.Logo {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+}
+
+nav {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.Banner {
+    width: 100%;
+    height: 40%;
+}
+
+figure {
+    padding-top: 1;
+    padding-bottom: 1%;
+}
+
+footer {
+    background-color: white;
+    width: 100%;
+}
+
+ul {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    line-height: 1.5;
+}
+
+.linha {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.col-06 {
+    width: 50%;
+}
+
+.img {
+    width: 90%;
+}
+
+.ladodir{
+    float: right
+}
+
+.imgmeio{
+    width: 37%;
+    margin-right:2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.historia{
+   margin-left: 2%;
+   margin-right: 2%;
+}
+
+.vidapessoal{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.premiacoes{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+@media (max-width:600px) {
+
+    .linha {
+      flex-direction: column;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+  }
